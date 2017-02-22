@@ -27,7 +27,11 @@ li {
 	min-width: 100px;
 }
 .about {
-	margin-top: 150px;
+    margin-top: 150px;
+    border: 3px solid #751f1f;
+    border-radius: 8px;
+    background-color: #dedede;
+    color: #751f1f;
 }
 p {
 	font-size: 18px;
@@ -73,14 +77,46 @@ p {
 	padding: 30px;
 }
 .intro {
-	background-color: #FFFFFF;
+	background-color: #666666;
 	border-top: 1px solid #eeeeee;
 	border-bottom: 1px solid #eeeeee;
 	height: 500px;
 	padding-top: 10px;
+	margin-bottom: 20px;
 }
 #profile {
 	border-radius: 450px;
 	height: 85%;
 	margin-top: 30px;
+}
+
+/*Set the minimum height for the slideshow*/
+.carousel-inner>.item {
+	min-height: 400px;
+}
+/*Set the background color for the 'current slide' indicators*/
+.carousel-indicators li {
+	background-color: #ffffff;
+	border: 1px solid black;
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #751f1f;
+}
+
+.carousel-indicators {
+	bottom: -30px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
