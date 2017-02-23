@@ -3,10 +3,11 @@
 <title>Mike Cariello</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 	
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"  crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"  crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 
 	<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
 
@@ -16,59 +17,79 @@
 
 <body>
 
-<div class="container">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <a class="logo" href="index.html"><img src="media/images/header.jpg" border=0></a>
+      </div>
+    </div>
 
-	<div class="row">
-		<div class="col-sm-12">
-			<a href="index.html"><img src="images/header.jpg" border=0></a>
-		</div>
-	</div>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
 
-	<div class="row">
-		<div class="menu">
-			<ul>
-				<li><a href="songs.html">Songs</a></li>
-				<li><a href="projects.html">Projects</a></li>
-				<li><a href="photos.html">Photos</a></li>
-				<li><a href="story.html">Story</a></li>
-			</ul>
-		</div>
-	</div>
-
-
-
-<tr>
-
-<td bgcolor=FAFAFA valign="top" colspan=6><center>
-<font face='arial'>
-<br><h2><i>Ringwood, NJ Hunger Walk</i><Br>Fall 2012</h2><hr>
-<img src="images/Mike_Fall_2012_2.jpg" height=400 width=600><Br><Br>
-<img src="images/Mike_Fall_2012_1.jpg" height=450 width=600><Br>
-
-<hr><br><h2><i>Ringwood, NJ Hunger Walk</i><Br>Fall 2011</h2><hr>
-<img src="images/Mike_6.jpg" height=450 width=600><Br><Br>
-<img src="images/Mike_3.jpg" height=450 width=600><Br><Br>
-
-<hr><br><h2><i>Practice Sessions</h2><hr>
-<img src="images/Mike_Practice.jpg" height=450 width=600><Br><Br>
-<img src="images/Mike_Xmas_2011.jpg" height=450 width=600><Br><Br>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li ><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li class="active"><a href="photos.html">Photos</a></li>
+            <li><a href="story.html">Story</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
 
 
-<hr><br><h2><i>Classics</h2><hr>
-<img src="images/Classic_1.jpg" height=413 width=600><Br><Br>
-<img src="images/Classic_2.jpg" height=415 width=600><Br><Br>
-<img src="images/Classic_3.jpg" height=402 width=600><Br><Br>
-<img src="images/Classic_4.jpg" height=864 width=600><Br><Br>
-
+    <div class="row">
+      <div class="col-xs-4 col-sm-3 imageDiv">
+        <img src="media/images/Mike_Fall_2012_2.jpg" class="thumbnail" alt="Ringwood, NJ Hunger Walk, Fall 2012">
+      </div>
+      <div class="col-xs-4 col-sm-3 imageDiv">
+        <img src="media/images/Mike_Fall_2012_1.jpg" class="thumbnail" alt="Ringwood, NJ Hunger Walk, Fall 2012">
+      </div>
+      <div class="col-xs-4 col-sm-3 imageDiv">
+        <img src="media/images/Mike_6.jpg" class="thumbnail" alt="Ringwood, NJ Hunger Walk, Fall 2011">
+      </div>
+      <div class="col-xs-4 col-sm-3 imageDiv">
+        <img src="media/images/Mike_3.jpg" class="thumbnail" alt="Ringwood, NJ Hunger Walk, Fall 2011">
+      </div>
+      <div class="col-xs-4 col-sm-3 imageDiv">
+        <img src="media/images/Mike_Practice.jpg" class="thumbnail" alt="Practice Sessions">
+      </div>
+      <div class="col-xs-4 col-sm-3 imageDiv">
+        <img src="media/images/Mike_Xmas_2011.jpg" class="thumbnail" alt="Practice Sessions">
+      </div>
+      <div class="col-xs-4 col-sm-3 imageDiv">
+        <img src="media/images/Classic_1.jpg" class="thumbnail" alt="Classics">
+      </div>
+      <div class="col-xs-4 col-sm-3 imageDiv">
+        <img src="media/images/Classic_2.jpg" class="thumbnail" alt="Classics">
+      </div>
+      <div class="col-xs-4 col-sm-3 imageDiv">
+        <img src="media/images/Classic_3.jpg" class="thumbnail" alt="Classics">
+      </div>
+      <div class="col-xs-4 col-sm-3 imageDiv">
+        <img src="media/images/Classic_4.jpg" class="thumbnail" alt="Classics">
+      </div>
+    </div>
 
 
 
 	<div class="row social">
 		<div class="col-sm-6 facebook">
-			<a href="https://www.facebook.com/pages/Cariello/439631496154106?ref=hl" target='new'><img src="images/fb_icon.jpg" title="Facebook" border=0></a>
+			<a href="https://www.facebook.com/pages/Cariello/439631496154106?ref=hl" target='new'><img src="media/images/fb_icon.jpg" title="Facebook" border=0></a>
 		</div>
 		<div class="col-sm-6 contact">
-			<a href="mailto:MikeCarielloMusic@gmail.com?subject=MikeCariello.com"><img src="images/mail_icon.jpg" title="contact" border=0></a>
+			<a href="mailto:MikeCarielloMusic@gmail.com?subject=MikeCariello.com"><img src="media/images/mail_icon.jpg" title="contact" border=0></a>
 		</div>
 	</div>
 </div>
